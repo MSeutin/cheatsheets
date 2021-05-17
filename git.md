@@ -186,6 +186,13 @@ git remote  # show remote connections
 git remote -v  # show remote connections with urls
 ```
 
+#### local vs remote branches
+```bash
+git branch  # shows local branches
+git branch -r  # shows remote branches
+git switch <remote branch>  # adds branch to my local repo & will start tracking same name remote branch
+```
+
 #### pushing
 ```bash
 git push  # push local to remote
