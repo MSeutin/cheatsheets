@@ -36,6 +36,7 @@ git push  # thereafter
 
 ## Git Configuration
 
+#### Global Config File (outside repos)
 ```bash
 brew install git  # install Git on Mac
 git config -l  # view config settings
@@ -46,6 +47,11 @@ git config --global core.editor "code --wait"  # set up vscode, view git doc for
 git config --global credential.helper chache  # save my next token / password in cache, view docs for more on token & ssh
 ```
 
+#### Local Config File (inside repose - confit file inside .git)
+```bash
+git config --local user.name "chicken soup"  # use --local commands inside appropriate repo
+git config --local user.email "chicken@gmail.com"
+```
 
 #### common aliases
 ```bash
@@ -201,13 +207,13 @@ git push -u origin <branch B>  # upstream so next time use only 'git push'
 git push --all  # push all branches
 ```
 
-#### pulling
+#### fetching [partially import]
 ```bash
-git pull  # fetch & merge to local repo
+git fetch  # fetch fr remote to repo but not to working dir
+git fetch <remote> <branch> # fetch specific branch
 ```
 
-#### fetching
+#### pulling [fully import or fetch + merge]
 ```bash
-git fetch  # fetch fr remote
-git fetch <remote> <branch> # fetch specific branch
+git pull  # fetch & merge to local repo working dir
 ```
