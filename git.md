@@ -217,3 +217,15 @@ git fetch <remote> <branch> # fetch specific branch
 ```bash
 git pull  # fetch & merge to local repo working dir
 ```
+
+## How Does Git Work (behind the scene)
+#### Hashing 
+- Git uses SHA-1 hashing function.
+- SHA-1 is deterministic.
+- SHA-1 returns the same output for the same input.
+- It is impossible to trace back the input or output without the hashing function.
+- SHA-1 returns a 40 hexadecimal long number.
+```bash
+echo "michael" | git hash-object --stdin
+f64c30d063c0fc3bfe1034a9f2efaac85574fa05
+```
