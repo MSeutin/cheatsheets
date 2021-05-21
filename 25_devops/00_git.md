@@ -131,6 +131,15 @@ git reset <hash>  # will reset to that hash location
 git revert  # undo changes fr a commit. [revert keeps old version as opposed to reset which erases]
 ```
 
+#### Tell Git to Untrack Files
+```bash
+git rm --cached <filename>  # untrack one file but will not delete
+git rm --cached <filename> <filename1> <filename3> # untract many files but not delete
+git rm -r --cached <folder> # untrack a folder but will not delete it
+git rm <filename> # this will delete the file
+
+```
+
 ## Merge Conflicts
 #### View Merge Conflicts
 ```bash
