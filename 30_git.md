@@ -36,7 +36,7 @@ git push  # thereafter
 
 ## Git Configuration
 
-#### Global Config File (outside repos)
+#### Global Config File (outside repos - **.gitconfig** inside home dir)
 ```bash
 brew install git  # install Git on Mac
 git config -l  # view config settings
@@ -47,7 +47,7 @@ git config --global core.editor "code --wait"  # set up vscode, view git doc for
 git config --global credential.helper chache  # save my next token / password in cache, view docs for more on token & ssh
 ```
 
-#### Local Config File (inside repo - config file inside .git)
+#### Local Config File (inside repo - **config** file inside .git in each repo)
 ```bash
 git config --local user.name "chicken soup"  # use --local commands inside appropriate repo
 git config --local user.email "chicken@gmail.com"
