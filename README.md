@@ -1,43 +1,46 @@
-# cheatsheets
+# cheatsheets README
 
-This is an aggregation of cheatsheets to be used as a reference.  It will be mostly helpful to Computer Science students, Programmers, Developers, or Data Scientists.
+## Table of Contents
+- [General Info](#general-info)
+- [Files](#files)
+- [Markdown](#markdown)
+- [Latex](#latex)
+- [Math-Html](#math-html)
+- [Html](#html)
+- [Contact](#contact)
 
-The cheatsheets cover various subjects such as **math**(from algebra to linear agebra and more), **computer science**(python, js, css, html, python libraries, algorithms, networking, and more), **devops**(git, github, dockers, vagrant, and more), and the list keeps growing.  
+## General Info
 
-Some simple cheatsheets are included in this readme file, while most will be in the folders above.
+This repo is an aggregation of cheatsheets to be used as reference.  It will be mostly helpful to Computer Science students, Programmers, Developers, or Data Scientists. Some cheatsheets are included in this README, while most will be located in the repo itself (search folders above).
 
-You can contact me for any help or suggestions at frenchmike@gmail.com.
+## Files
 
+Repo Cheatsheets :
+- Math
+    - algebra, calculus, trig, logic, linear algebra ...
+- Computer Science
+    - python, js, css, pandas ...
+- Netorking
+    - various areas of IT & networking.
+- Devops
+    - git, github, dockers, vagrant ...
 
-Table of contents
------------------
-
-* [markdown](#markdown)
-* [latex](#latex)
-* [math-html](#math-html)
-* [html](#html)
-
-
-Markdown
-------------
+## Markdown
 
 A markdown cheatsheet is in progress here. 
 
 
-Latex
------
+## Latex
 
 A latex cheatsheet is in progress here.
  
 
-Math-Html
----------
+## Math Html
 
 A Math Html cheatsheet is in progress here.
 
-Html
-----
+## Html
 
 A Html cheatsheet is in progress here.
 
-
+## Contact
