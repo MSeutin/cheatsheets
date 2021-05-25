@@ -5,8 +5,8 @@
 1. [Make a Request](#Make-a-Request)
 1. [Passing Parameters in URLs](#Passing-Parameters-in-URLs)
 1. [Response Content](#Response-Content)
-1. [Request Headers](#Request-Headers)
-1. [Request Post](#Request-Post)
+1. [Request Headers](#Requests-Headers)
+1. [Request Post](#Requests-Post)
 
 ## Installation
 
@@ -89,36 +89,23 @@ r = requests.get('https://jsonplaceholder.typicode.com/users',
 headers=headers)
 ```
 
-## Request Post
+## Requests Post
 
 Use the `requests.post()` method to send data to be posted.
 ```python
-requests.post(url, data={key: value}, json={key: value}, args)
+r = requests.post(url, data={key: value}, json={key: value}, **kwargs)
+
+# print content of request, if params were json
+print(r.json())
 ```
 Parameters
 | Parameters       | Description     |
 | :------------- | :----------:  |
 |  url | required. The url of the request.   |
-| data   | optional. It can be a dictionary, list of tuples, bytes, or a file object to send to the specidied url |
-| json | optional. It is a JSON object to submit to the specified url   |
-| files   | optional. It is a dictionary of files to send the specified url |
-|  allow_redirects | optional. It is a Boolean to enable/disable redirection.
-Default True (allowing redirects)    |
-| auth   | optional. It is a tuple to enable a secure HTTP authentication.
-Default None |
-|  cert | optional. It is a String or Tuple specifying a cert file or key.
-Default None    |
-|  cookies | optional. It is a dictionary of cookies to send to the specified url.
-Default None    |
-| headers   | optional. It is the dictionary of HTTP headers to send to the specified url.
-Default None |
-|  proxies | optional. It is a dictionary of the protocol to the proxy url.
-Default None    |
-| stream   | optional. It is a Boolean value that illustrates if the response should be immediately downloaded (False) or streamed (True).
-Default False |
-|  timeout | optional. It is a tuple, or number, indicating how many seconds to wait for a client to make the connection and/or send a response. The default argument is None that means the request will continue until the connection is closed or lost.    |
-| verify  | optional. It is a Boolean or a String indication to check the server’s TLS certificate or not.
-Default True |
+| data   | (optional) Dictionary, list of tuples, bytes, or a file object to send to body of Request |
+| json | (optional) json data to send in the body of the `request`   |
+| **kwargs   | (optional) arguments that `request` takes|
+
 
 ## POST a Multipart-Encoded File
 
