@@ -41,6 +41,6 @@ A Math Html cheatsheet is in progress here.
 
 ## Html
 
-A Html cheatsheet is in progress here.
+[Html Cheatsheet](10_cs-languages/01_html/01_html.md)
 
 ## Contact
