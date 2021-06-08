@@ -1,10 +1,39 @@
 # Css Cheatsheet
 
 ## Table of Contents
+1. [External Style Sheets](#External-Style-Sheets)
+1. [Normalizing CSS](#Normalizing-CSS)
 1. [Comments](#Comments)
 1. [Lists](#Lists)
 1. [Images](#Images)
 1. [Video & Audio](#Video-&-Audio)
+
+## External Style Sheets
+
+- Inline Rules override all other rules
+```html
+<p style="color: blue: font-weight: bold">Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+```
+
+- Embeded Rules override the rules defined in an External Style Sheet.
+```html
+<style>
+    p {
+        color: black; <!-- Will override External Style Sheet -->
+    }
+</style>
+```
+
+- Use External Style Sheet, it's good practice (sepration of concerns).
+- Link to External Style Sheets
+```html
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+## Normalizing CSS
 
 ## Comments
 ```css

@@ -10,6 +10,8 @@
 1. [Video & Audio](#Video-&-Audio)
 1. [Lists](#Lists)
 1. [Tables](#Tables)
+1. [Containters](#Containers)
+1. [Semantic Elements](#Semantic-Elements)
 1. [Forms](#Forms)
 
 ## Structure
@@ -188,6 +190,39 @@ em {
 <table align="center"> ... </table>
 <td colspan="2"> Text will span horizontally </td> <!-- cell will span 2 columns -->
 <td rowspan="2"> Text will span vertically </td> <!-- cell sill span 2 rows -->
+```
+
+## Containers
+`div` : block level element, usually used with class to isolate the element.
+`span`: in-line level element.  Will not extend to the other side of the screen.
+
+## Semantic Elements
+
+Prefered over generic `div` and `span`.  Will help you stay organized & serach engines find the appropritate sections.
+List of Semantic Elements
+- `<article>` : Independent, self-contained content such as
+    - Forum Post
+    - Comments ...
+- `<figure>` : container for images.
+- `<figcaption>`; caption for the `<figure>` element.
+- `<mark>` : highlight or mark content.
+- `<time>` : for date & time.
+
+List of Semantic Elements (for page structure)
+
+```html
+<header>
+    <nav>
+    </nav>
+</header>
+<main>
+    <section>
+        <article></article>
+        <article></article>
+    </section>
+</main>
+<footer>
+</footer>
 ```
 
 ## Forms
