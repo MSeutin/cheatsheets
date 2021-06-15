@@ -1,5 +1,35 @@
 # cheatsheets README
 
+## Daily Routines
+
+### On Waking Up
+- [ ] Anki
+- [ ] 30 mn Math
+- [ ] Duolingo
+- [ ] 5 minute meditation
+- [ ] walk
+- [ ] 10 deep breathing
+- [ ] 10 jumping jacks, squats, push ups
+
+### After Walk
+- [ ] 10 minutes bike
+- [ ] 30 min math
+- [ ] 30 min coding
+- [ ] 30 min read buddhism
+
+### Afternoons
+- [ ] 2 times breath holds
+- [ ] 10 burpees
+- [ ] 1 hour math
+- [ ] 5 min meditation
+
+### Evening
+- [ ] 1 hr coding
+- [ ] 3 pull ups
+- [ ] 10 minutes bike
+- [ ] 1 hr math
+- [ ] 10 jumping jack
+
 ## Table of Contents
 - [General Info](#general-info)
 - [Files](#files)
