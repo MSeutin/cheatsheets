@@ -27,7 +27,12 @@ git checkout -b feature_name
 
 ### 3) write code - commit changes
 ```shell
-git commit -am "My feature is ready"
+#add & commit all (1 step)
+git commit -am "My feature is ready" #commit All + msg
+
+#add & commit selected files (2 steps)
+git add <file> #or <directory>
+git commit -m "my message"
 ```
 
 ### 4) push branch
